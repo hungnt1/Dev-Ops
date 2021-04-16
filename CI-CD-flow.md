@@ -5,6 +5,7 @@ Có rất nhiều quy trình, công cụ khác nhau để ứng dụng CI/CD và
 
 Dưới đây là các bước thông thường của quá trình release tính năng trong một dự án thuộc hệ thống ......  
 – **Bước 1:** [Manual] Khởi tạo repository và có branch default là master và dev. Cài đặt trên Gitlab .  
+
 – **Bước 2:** [Manual] Trừ owner ra, thì các coder sẽ push code tính năng lên branch dev. Coder sẽ tạo branch từ nhánh dev dựa theo module cần phát triển. 
 – **Bước 3:** [Auto] Hệ thống tự động thực hiện test source code, nếu PASS thì sẽ deploy tự động (rsync) code lên server beta.  
 – **Bước 4:** [Manual] Tester/QA sẽ vào hệ thống beta để làm UAT (User Acceptance Testing) và confirm là mọi thứ OK.  
